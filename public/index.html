@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Auth App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task-01 Authentication</h1>
+        <div id="messageBox" class="hidden"></div>
+
+        <!-- Auth Section -->
+        <div id="authSection">
+            <div class="form-group">
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="password" id="password" placeholder="Password" required>
+            </div>
+            <button onclick="login()">Login</button>
+            <button onclick="register()" class="secondary">Register</button>
+        </div>
+
+        <!-- Dashboard Section (Protected) -->
+        <div id="dashboardSection" class="hidden">
+            <h2>Welcome to your Dashboard</h2>
+            <div class="card" id="dashboardData">
+                Fetching protected data...
+            </div>
+            <button onclick="logout()" class="danger">Logout</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
