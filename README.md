@@ -22,7 +22,7 @@ The system follows standard security practices such as password hashing and sess
 * **Frontend:** HTML, CSS (Jinja Templates)
 * **Database:** SQLite
 * **Security:** Werkzeug (Password Hashing)
-
+```
 ## Project Structure
 
 │── instance/
@@ -31,7 +31,7 @@ The system follows standard security practices such as password hashing and sess
 │   ├── index.html
 │   └── style.css
 │── README.md
-
+```
 ## Installation & Setup
 
 ### Clone the repository
@@ -77,5 +77,3 @@ http://127.0.0.1:5000/
 * On login, credentials are verified securely.
 * A session is created for authenticated users.
 * Protected routes check if the user is logged in before granting access.
-
-Aryan Negi
