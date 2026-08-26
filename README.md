@@ -25,13 +25,11 @@ The system follows standard security practices such as password hashing and sess
 
 ## Project Structure
 
-│── app.py
 │── instance/
-│── templates/
-│   ├── login.html
-│   ├── register.html
-│   └── dashboard.html
-│── static/ (optional)
+│── public/
+│   ├── app.js
+│   ├── index.html
+│   └── style.css
 │── README.md
 
 ## Installation & Setup
