@@ -25,7 +25,6 @@ The system follows standard security practices such as password hashing and sess
 
 ## Project Structure
 
-Task-2/
 │── app.py
 │── instance/
 │── templates/
